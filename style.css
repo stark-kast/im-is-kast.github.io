@@ -5,14 +5,6 @@ body {
 }
 
 a {
-	color: #6F50B5;
-}
-
-a:hover {
-	color: #A191E1;
-}
-
-a:active {
 	color: #A191E1;
 }
 
