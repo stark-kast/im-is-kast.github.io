@@ -4,11 +4,11 @@ body {
 	color: #DADADA;
 }
 
-A {
+a {
 	color: #6F50B5;
 }
 
-A:active {
+a:active {
 	color: #A191E1;
 }
 
