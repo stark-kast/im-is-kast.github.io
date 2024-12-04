@@ -1,14 +1,65 @@
 
 body {
 	background-color: #1E1E1E;
+	font-family: Arial, sans-serif;
 	color: #DADADA;
 }
 
 a {
 	color: #A191E1;
+	text-decoration: none;			/* Отменяем подчеркивание у ссылки */
 }
 
 div {
-	background-color: #262626;
-	border-radius: 20рх;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;	/* задаёт скругление углов */
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+}
+div.menu {
+	background-color: #171717;
+	border: 1px solid black;
+	margin: 15px 15% 1% 15%;
+	padding: 15px 15px 15px 15px;
+}
+
+div.content {
+	background-color: #262626;		/* Цвет фона */
+	border: 1px solid black;		/* Толщина, тип и цвет рамки */
+	margin: 1% 15% 5% 15%;			/* Отступ блока */
+	padding: 15px;					/* Отступ текста */
+}
+
+ul.hor {
+	margin: 0;				/* Обнуляем значение отступов */
+	padding: 4px;			/* Значение полей */
+	font-size: 120%;		/* Размер текста в блоке */
+}
+
+ul.hor li {
+	display: inline;		/* Отображать как строчный элемент */
+	margin-right: 20px;		/* Отступ слева */
+	margin-left: 20px;
+	padding: 3px;			/* Поля вокруг текста */
+}
+
+marquee.marq {
+	margin-bottom: -10px;
+}
+
+span {
+	margin-right: 80px;
+}
+
+h1 {
+	margin-bottom: -3px; /* Отрицательный отступ между заголовком и текстом */
+	}
+
+h2 {
+	margin-bottom: -10px; /* Отрицательный отступ между заголовком и текстом */
+	}
+
+.rightimg  {
+	float: right; /* Выравнивание по правому краю  */ 
+	margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
 }
