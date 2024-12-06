@@ -40,6 +40,14 @@ div.footnote {
 	padding: 8px;
 }
 
+div.autor {
+	margin: 1% 15% 1% 15%;
+	padding: 15px;
+	color: #353535;
+	text-size-adjust: 20%;
+	font-weight: 600;		/* Жирное начертание */
+}
+
 ul.hor {
 	margin: 0;				/* Обнуляем значение отступов */
 	padding: 4px;			/* Значение полей */
