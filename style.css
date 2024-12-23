@@ -25,6 +25,7 @@ div {
 	border-bottom-left-radius: 24px;
 	border-bottom-right-radius: 24px;
 }
+
 div.menu {
 	background-color: #171717;
 	border: 1px solid black;
@@ -35,11 +36,12 @@ div.menu {
 div.content {
 	background-color: #262626;		/* Цвет фона */
 	border: 1px solid black;		/* Толщина, тип и цвет рамки */
-	margin: 1% 15% 5% 15%;			/* Отступ блока */
+	margin: 1% 15% 1% 15%;			/* Отступ блока */
 	padding: 15px;					/* Отступ текста */
 }
 
 div.footnote {
+	background-color: #353535;
 	border: 1px solid black;
 	margin: 2% 5px 3% 5px;
 	padding: 8px;
@@ -90,4 +92,32 @@ h2 {
 p {
 	text-align: justify; /* Выравнивание по ширине */
 	text-indent: 25px; /* Отступ первой строки в пикселах */
+}
+
+p.pnone {
+	text-indent: 0px;
+}
+
+#maket {
+	width: 70%; /* Ширина всей таблицы */
+}
+
+td {
+	padding: 5px;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;	/* задаёт скругление углов */
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+}
+
+td.col {
+	width: 100px;
+	height: 100px;
+	background-color: #353535;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.space {						/* Расстояние между колонками */
+	width: 40%;
 }
