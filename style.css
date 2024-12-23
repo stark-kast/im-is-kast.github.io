@@ -110,7 +110,7 @@ td {
 	border-bottom-right-radius: 24px;
 }
 
-td.col {
+td.startcol {
 	width: 100px;
 	height: 100px;
 	background-color: #353535;
@@ -118,6 +118,22 @@ td.col {
 	text-align: center;
 }
 
-td.space {						/* Расстояние между колонками */
+td.startspace {						/* Расстояние между колонками */
 	width: 40%;
+}
+
+table.chapters {
+	width: 100%; /* Ширина всей таблицы */
+}
+
+td.chapterscol {
+	width: 20%;
+	height: 40px;
+	background-color: #353535;
+	border: 1px solid black;
+	text-align: center;
+}
+
+td.chaptersspace {						/* Расстояние между колонками */
+	width: 60%;
 }
