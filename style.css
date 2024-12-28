@@ -40,10 +40,7 @@ th {
 	text-decoration: none;
 	display: block;
 	text-align: left;
-	border-top-left-radius: 24px;
-	border-top-right-radius: 24px;	/* задаёт скругление углов */
-	border-bottom-left-radius: 24px;
-	border-bottom-right-radius: 24px;
+	border-radius: 24px;
 }
 
 /* Показать выпадающее меню при наведении курсора */
@@ -80,10 +77,7 @@ a.nolink {
 }
 
 div {
-	border-top-left-radius: 24px;
-	border-top-right-radius: 24px;	/* задаёт скругление углов */
-	border-bottom-left-radius: 24px;
-	border-bottom-right-radius: 24px;
+	border-radius: 24px;
 }
 
 div.menu {
@@ -151,10 +145,7 @@ table.start {
 
 td {
 	padding: 5px;
-	border-top-left-radius: 24px;
-	border-top-right-radius: 24px;	/* задаёт скругление углов */
-	border-bottom-left-radius: 24px;
-	border-bottom-right-radius: 24px;
+	border-radius: 24px;
 }
 
 td.startcol {
