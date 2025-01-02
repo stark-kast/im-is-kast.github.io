@@ -63,18 +63,10 @@ a {
 	color: #A191E1;
 	text-decoration: none;			/* Отменяем подчеркивание у ссылки */
 }
-
-a.nav {
-	font-size: 80%;
-}
-
-a:hover {
-    text-decoration: underline !important;
-}
-
-a.nolink {
-	color: #FF0000;
-}
+a.nav		{font-size: 80%;}
+a:hover		{text-decoration: underline !important;}
+a.semi		{color: #FFEC98;}
+a.nolink	{color: #FF0000;}
 
 div {
 	border-radius: 24px;
