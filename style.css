@@ -28,6 +28,7 @@ th {
 	display: none;
 	position: absolute;
 	background-color: #262626;
+	border: 1px solid black;
 	min-width: inherit;
 	z-index: 1;
 }
