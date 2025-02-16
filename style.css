@@ -1,4 +1,10 @@
 
+body {
+	background-color: #1E1E1E;
+	font-family: Arial, sans-serif;
+	color: #DADADA;
+}
+/*============================================================================*/
 /* Выпадающий контейнер */
 .dropdown {
 	overflow: hidden;
@@ -27,7 +33,7 @@ th {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #262626;
+	background-color: #222222;
 	border: 1px solid black;
 	min-width: inherit;
 	z-index: 1;
@@ -53,13 +59,7 @@ th {
 .dropdown-content a:hover {
 	background-color: #353535;
 }
-
-body {
-	background-color: #1E1E1E;
-	font-family: Arial, sans-serif;
-	color: #DADADA;
-}
-
+/*============================================================================*/
 a {
 	color: #A191E1;
 	text-decoration: none;			/* Отменяем подчеркивание у ссылки */
@@ -68,9 +68,9 @@ a.nav		{font-size: 80%;}
 a:hover		{text-decoration: underline !important;}
 a.semi		{color: #FFF1B2;}
 a.nolink	{color: #FF0000;}
-
+/*============================================================================*/
 div {
-	border-radius: 24px;
+	border-radius: 20px;
 }
 
 div.menu {
@@ -101,7 +101,7 @@ div.autor {
 	text-size-adjust: 20%;
 	font-weight: 600;		/* Жирное начертание */
 }
-
+/*============================================================================*/
 marquee.marq {
 	margin-bottom: -10px;
 }
@@ -109,7 +109,7 @@ marquee.marq {
 span {
 	margin-right: 80px;
 }
-
+/*============================================================================*/
 h1 {
 	margin-bottom: -3px; /* Отрицательный отступ между заголовком и текстом */
 	}
@@ -119,12 +119,27 @@ h2 {
 h3 {
 	margin-bottom: -10px;
 	}
-
-.rightimg  {
-	float: right; /* Выравнивание по правому краю  */ 
-	margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+/*============================================================================*/
+img {
+	border-radius: 20px;
+	border: 1px solid black;
 }
 
+img.full {
+	width: 100%;
+	height: 100%;
+}
+
+img.midd {
+	width: 50%;
+	height: 50%;
+}
+
+img.small  {
+	width: 30%;
+	height: 30%;
+}
+/*============================================================================*/
 p {
 	text-align: justify; /* Выравнивание по ширине */
 	text-indent: 25px; /* Отступ первой строки в пикселах */
@@ -133,9 +148,13 @@ p {
 p.pnone {
 	text-indent: 0px;
 }
-
+/*============================================================================*/
 table.start {
-	width: 70%; /* Ширина всей таблицы */
+	width: 65%; /* Ширина всей таблицы */
+}
+
+tr {
+	height: 50px;
 }
 
 td {
@@ -144,7 +163,7 @@ td {
 }
 
 td.startcol {
-	width: 100px;
+	width: 22.5%;
 	height: 100px;
 	background-color: #353535;
 	border: 1px solid black;
@@ -152,7 +171,7 @@ td.startcol {
 }
 
 td.startspace {						/* Расстояние между колонками */
-	width: 40%;
+	width: 30%;
 }
 
 table.chapters {
@@ -169,4 +188,17 @@ td.chapterscol {
 
 td.chaptersspace {						/* Расстояние между колонками */
 	width: 60%;
+}
+/*============================================================================*/
+div.infwin {
+	width: 240px;
+	background-color: #353535;
+	border: 1px solid black;
+	text-align: center;
+	float: right;
+}
+
+div.iwtext {
+	margin: 5%;
+	text-align: center;
 }
