@@ -90,6 +90,13 @@ div.content {
 	padding: 15px;					/* Отступ текста */
 }
 
+div.infobox-top {
+	background-color: #353535;
+	border: 1px solid black;
+	margin: 2% 5px 3% 5px;
+	padding: 16px;
+}
+
 div.footnote {
 	background-color: #353535;
 	border: 1px solid black;
