@@ -240,15 +240,21 @@ td.chaptersspace {						/* Расстояние между колонками */
 
 div.ctg-unit-all {
 	column-count: 2;
-	column-gap: 32px;
+	column-gap: 40px;
+	padding: 24px;
 }
 
-div.ctg-units {}
+div.ctg-units {
+	padding: 8px 0px;
+}
 
-div.ctg-unit {}
+div.ctg-abc {
+	font-size: 128%;
+	font-weight: 700;
+}
 
-div.ctg-units hr {
-	color: #535353;
+div.ctg-units li {
+	padding: 8px 0px;
 }
 /*============================================================================*/
 
