@@ -97,6 +97,10 @@ div.infobox-top {
 	padding: 16px;
 }
 
+div.stair {
+	margin: 0px 0px 0% 50px;
+}
+
 div.footnote {
 	background-color: #353535;
 	border: 1px solid black;
